@@ -1,6 +1,6 @@
 # amplify-js-boilerplate
 
-After doing the Amplify tutorial a couple of times I realized I could reduce the initial creation steps by extracting a simple boilerplate project.
+After doing the [Amplify tutorial](https://docs.amplify.aws/start/getting-started/setup/q/integration/js/#initialize-a-new-backend) a couple of times I realized I could reduce the initial creation steps by extracting a simple boilerplate project.
 
 
 ## Create an **AWS IAM user** for Amplify and a local development **AWS profile**
