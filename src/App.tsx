@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="app-header">
+        <h1>Welcome to Amplify</h1>
+      </div>
+      <div className="app-body">
+        <h1>Mutation Results</h1>
+        <button id="MutationEventButton">Add data</button>
+        <div id="MutationResult"></div>
+        <hr />
+
+        <h1>Query Results</h1>
+        <div id="QueryResult"></div>
+        <hr />
+
+        <h1>Subscription Results</h1>
+        <div id="SubscriptionResult"></div>
+      </div>
     </div>
   );
 }
