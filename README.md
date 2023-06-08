@@ -4,14 +4,22 @@ After doing the [Amplify tutorial](https://docs.amplify.aws/start/getting-starte
 
 After forking/cloning the repo, follow the steps below to get started:
 
+## Prerequisites
 
-## Create an **AWS IAM user** for Amplify and a local development **AWS profile**
+- Node.js, npm, git
+- AWS Account
+- Install [Amplify CLI](https://docs.amplify.aws/cli/start/install/)
+  - `npm install -g @aws-amplify/cli`
 
+## AWS IAM user and profile setup for Amplify
+
+Run the following command:
 ```bash
 amplify configure
 ```
 
-- Login the AWS console
+Thjs will guide you to do the following:
+- Login to the AWS console
 - Specify region in the terminal
 - Provide an amplify IAM user. e.g. `amplify-dev`
 - Attach policies directly: `AdministratorAccess-Amplify`
@@ -19,17 +27,25 @@ amplify configure
 - Specify the `Access key` and `Secret access key` in the terminal
 - Specify an AWS profile name. e.g. `amplify-dev`
 
-## Getting started
+## Create Amplify App
 
-We'll generate some content now that you **Don't** want to commit publicly.
+We'll generate some content that you **Don't** want to commit publicly.
 The command below will modify the `.gitignore file` and assist with this process, however I still found some information about IAM role ARN's being included.
 
-Ensure your .gitignore rules are setup correctly! 
+Ensure your .gitignore rules are setup correctly!  
 e.g. `amplify/`
 
+Run the following commnd to create your Amplify App:
 ```bash
 amplify init
 ```
 
-- Specify details about your project.e.g. project-name
-- Specify the AWS profile as per section abover. e.g. `amplify-dev`
+- Specify details about your project. e.g. project-name
+- Specify the AWS profile as per [section above](#aws-iam-user-profile-setup-for-amplify). e.g. `amplify-dev`
+
+Once the your app is initialized you can confirm it's existence in AWS Amplify Console.  
+```bash
+amplify console
+```
+
+![amplify app screenshot](/readme-content/amplify-app.png)
