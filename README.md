@@ -1,4 +1,4 @@
-# amplify-js-boilerplate
+# Amplify React Typescript Boilerplate
 
 After doing the [Amplify tutorial](https://docs.amplify.aws/start/getting-started/setup/q/integration/js/#initialize-a-new-backend) a couple of times I realized I could reduce the initial creation steps by extracting a simple boilerplate project.
 
