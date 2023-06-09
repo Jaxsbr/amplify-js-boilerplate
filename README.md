@@ -2,7 +2,7 @@
 
 After practicing the [Amplify tutorial](https://docs.amplify.aws/start/getting-started/setup/q/integration/js/#initialize-a-new-backend) a couple of times I realized I could reduce the initial creation steps by extracting a simple boilerplate project.
 
-Also, the tutorial uses JavaScript React (JSX) which is not my preference and configuring TypeScript is burdomesone when I just what to do the tutorial in TS.
+Also, the tutorial uses JavaScript React (JSX) which is not my preference and configuring TypeScript is burdensome when I just what to do the tutorial in TS.
 
 The boilerplate:
 - Creates a Typescript enabled React starting project for the Tutorial.
