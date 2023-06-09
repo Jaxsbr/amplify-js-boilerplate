@@ -59,7 +59,7 @@ amplify console
 
 ## Launch new boilerplate App
 
-All the basic should not we in place and we can test our App.
+All the basicd should now be in place and we can test our App.
 
 ```bash
 npm install
