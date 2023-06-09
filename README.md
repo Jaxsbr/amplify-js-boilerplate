@@ -45,6 +45,11 @@ amplify init
 - Specify details about your project. e.g. project-name
 - Specify the AWS profile as per [section above](#aws-iam-user-profile-setup-for-amplify). e.g. `amplify-dev`
 
+Removal can be done easily if needed:
+```bash
+amplify remove
+```
+
 Once the your app is initialized you can confirm it's existence in AWS Amplify Console.  
 ```bash
 amplify console
