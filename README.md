@@ -52,6 +52,16 @@ amplify console
 
 ![amplify app screenshot](/readme-content/amplify-app.png)
 
+## Launch new boilerplate App
+
+All the basic should not we in place and we can test our App.
+
+```bash
+npm install
+npm start
+```
+![boilerplate app](/readme-content/boilerplate-app.png)
+
 ## Warning: Generated Amplify Content
 
 We've now generated some content that you **Don't** want to commit publicly.
@@ -62,4 +72,4 @@ e.g. `amplify/`
 
 ## Conclusion
 
-You should not have Amplify app configured to use Typescript along with the first React component to resume the tutorial from [here](https://docs.amplify.aws/start/getting-started/setup/q/integration/react/#install-amplify-libraries)
+You have a Amplify app configured to use Typescript along with the first React component. You can now skip ahead to the tutorial step: [Connect API and database to the app](https://docs.amplify.aws/start/getting-started/data-model/q/integration/react/)
