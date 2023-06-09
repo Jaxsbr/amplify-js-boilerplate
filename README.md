@@ -7,6 +7,9 @@ Also, the tutorial uses JavaScript React (JSX) which is not my preference and co
 The boilerplate:
 - Creates a Typescript enabled React starting project for the Tutorial.
 - Provides the default HTML for the tutorial converted into the a React `App` component.
+- Allows us to effectivly skip the `Set up fullstack project` step in the tutorial.
+
+![](/readme-content/tutorial-step.png)
 
 ## Prerequisites
 
@@ -60,5 +63,3 @@ e.g. `amplify/`
 ## Conclusion
 
 You should not have Amplify app configured to use Typescript along with the first React component to resume the tutorial from [here](https://docs.amplify.aws/start/getting-started/setup/q/integration/react/#install-amplify-libraries)
-
-
