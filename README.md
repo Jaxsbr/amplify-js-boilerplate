@@ -1,8 +1,12 @@
 # Amplify React Typescript Boilerplate
 
-After doing the [Amplify tutorial](https://docs.amplify.aws/start/getting-started/setup/q/integration/js/#initialize-a-new-backend) a couple of times I realized I could reduce the initial creation steps by extracting a simple boilerplate project.
+After practicing the [Amplify tutorial](https://docs.amplify.aws/start/getting-started/setup/q/integration/js/#initialize-a-new-backend) a couple of times I realized I could reduce the initial creation steps by extracting a simple boilerplate project.
 
-After forking/cloning the repo, follow the steps below to get started:
+Also, the tutorial uses JavaScript React (JSX) which is not my preference and configuring TypeScript is burdomesone when I just what to do the tutorial in TS.
+
+The boilerplate:
+- Creates a Typescript enabled React starting project for the Tutorial.
+- Provides the default HTML for the tutorial converted into the a React `App` component.
 
 ## Prerequisites
 
@@ -10,6 +14,7 @@ After forking/cloning the repo, follow the steps below to get started:
 - AWS Account
 - Install [Amplify CLI](https://docs.amplify.aws/cli/start/install/)
   - `npm install -g @aws-amplify/cli`
+- Fork or clone the repo
 
 ## AWS IAM user and profile setup for Amplify
 
@@ -18,7 +23,7 @@ Run the following command:
 amplify configure
 ```
 
-Thjs will guide you to do the following:
+This will guide you in doing the following:
 - Login to the AWS console
 - Specify region in the terminal
 - Provide an amplify IAM user. e.g. `amplify-dev`
@@ -28,12 +33,6 @@ Thjs will guide you to do the following:
 - Specify an AWS profile name. e.g. `amplify-dev`
 
 ## Create Amplify App
-
-We'll generate some content that you **Don't** want to commit publicly.
-The command below will modify the `.gitignore file` and assist with this process, however I still found some information about IAM role ARN's being included.
-
-Ensure your .gitignore rules are setup correctly!  
-e.g. `amplify/`
 
 Run the following commnd to create your Amplify App:
 ```bash
@@ -49,3 +48,17 @@ amplify console
 ```
 
 ![amplify app screenshot](/readme-content/amplify-app.png)
+
+## Warning: Generated Amplify Content
+
+We've now generated some content that you **Don't** want to commit publicly.
+The `.gitignore file` would have been modified by `amplify init`, however I still found some information about IAM role ARN's being included.
+
+Ensure your .gitignore rules are setup correctly!  
+e.g. `amplify/`
+
+## Conclusion
+
+You should not have Amplify app configured to use Typescript along with the first React component to resume the tutorial from [here](https://docs.amplify.aws/start/getting-started/setup/q/integration/react/#install-amplify-libraries)
+
+
