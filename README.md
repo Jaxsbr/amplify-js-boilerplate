@@ -50,7 +50,7 @@ Removal can be done easily if needed:
 amplify remove
 ```
 
-Once the your app is initialized you can confirm it's existence in AWS Amplify Console.  
+Once your app is initialized you can confirm it's existence in AWS Amplify Console.  
 ```bash
 amplify console
 ```
