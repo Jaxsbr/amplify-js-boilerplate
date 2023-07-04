@@ -5,8 +5,9 @@ After practicing the [Amplify tutorial](https://docs.amplify.aws/start/getting-s
 Also, the tutorial uses JavaScript React (JSX) which is not my preference and configuring TypeScript is burdensome when I just what to do the tutorial in TS.
 
 The boilerplate:
-- Creates a Typescript enabled React starting project for the Tutorial.
-- Provides the default HTML for the tutorial converted into the a React `App` component.
+- Creates a `Typescript` enabled `React` project.
+- Comes with [Amplify UI library](https://ui.docs.amplify.aws/?platform=react) installed.
+- Comes with `HTML` content needed for the tutorial, converted to `React` components that use the `Amplify UI library`.
 - Allows us to effectivly skip the `Set up fullstack project` step in the tutorial.
 
 ![](/readme-content/tutorial-step.png)
@@ -70,11 +71,13 @@ npm start
 ## Warning: Generated Amplify Content
 
 We've now generated some content that you **Don't** want to commit publicly.
-The `.gitignore file` would have been modified by `amplify init`, however I still found some information about IAM role ARN's being included.
+The `.gitignore file` is modified when running `amplify init`, however I still found some information about IAM role ARN's being included.
 
 Ensure your .gitignore rules are setup correctly!  
 e.g. `amplify/`
 
 ## Conclusion
 
-You have a Amplify app configured to use Typescript along with the first React component. You can now skip ahead to the tutorial step: [Connect API and database to the app](https://docs.amplify.aws/start/getting-started/data-model/q/integration/react/)
+You have an `Amplify` app configured to use `Typescript` along with `Amplify UI library` styled `React` components.  
+You can now skip ahead to the tutorial step: [Connect API and database to the app](https://docs.amplify.aws/start/getting-started/data-model/q/integration/react/)  
+OR, use this as a starting point for your own Amplify project! 😁
